@@ -2,7 +2,7 @@
 import pyautogui
 import time
 import subprocess
-from selenium 
+from selenium import webdriver
 count=0
 while count<10:
 	driver=webdriver.Firefox();
